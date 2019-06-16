@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.end('NodeAPP!\n');
+  res.end('NodeAPP RAW!\n');
 });
 
 server.listen(port, () => {
