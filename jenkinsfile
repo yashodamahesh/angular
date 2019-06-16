@@ -1,6 +1,6 @@
 node { 
           stage('Checkout SCM'){
-                git branch :  'master', url: 'https://github.com/krishnaummadi55/angular.git'
+                git branch :  'master', url: 'https://github.com/yashodamahesh/angular.git'
           }
           stage('Start Node'){
                  sh "npm start --host 0.0.0.0"
