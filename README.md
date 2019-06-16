@@ -1,4 +1,4 @@
-# Node Hello World
+# Node Hello World AWS
 
 Simple node.js app that servers "hello world"
 
