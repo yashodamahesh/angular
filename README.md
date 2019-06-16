@@ -1,4 +1,4 @@
-# Node Hello World AWS
+# Node Hello World AWS VM
 
 Simple node.js app that servers "hello world"
 
