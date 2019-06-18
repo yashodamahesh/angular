@@ -3,7 +3,6 @@ node {
                 git branch :  'master', url: 'https://github.com/contentful/the-example-app.nodejs.git'
           }
           stage('Start Node'){
-                 sh "npm install"
-                 sh "npm start --host 0.0.0.0"
+                sh "npm start --host 0.0.0.0"
           }
      }
